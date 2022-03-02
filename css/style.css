@@ -49,40 +49,13 @@ a, a:visited {
 
 a:hover {
     text-decoration: underline;
-}
+    }
 
 ul {
 	list-style: none;
 }
 
-.download {
-	padding: 10px;
-}
-
-pre {
-	font-size: 18px;
-}
-
-blockquote {
-	text-align: left;
-	width: 720px;
-	margin: 10px auto;
-	background: #C5C3DE;
-	border: solid 2px #69697A;
-	padding: 0 40px;
-}
-
-code {
-    background-color: #000;
-	font-style: normal;
-    border-radius: 10px;
-    color: white;
-    padding: 5px 15px;
-    font-family: menlo, monospace;
-}
-
 /*----------------------------------------  BLOCKS */
-
 .scrollblock {
 	position: relative;
 	margin: 0;
@@ -91,7 +64,6 @@ code {
     padding-top: 40px;
     padding-bottom: 80px;
 }
-
 
 .block-title { background-color: #FFF; padding-bottom: 50px; }
 .block-title h2 { color: #000; }
@@ -116,72 +88,6 @@ code {
 }
 .block-Apresentação h2 { color: #000; }
 
-
-.announcement {
-    margin-bottom: 40px;
-}
-
-.announcement img {
-    border-radius: 2px;
-}
-
-#carbonads {
-  display: block;
-  overflow: hidden;
-  padding: 10px;
-  background-color: #dfdfdf;
-	border-radius: 3px;
-  max-width: 300px;
-  margin: 0 auto;
-  font-family: Verdana, "Helvetica Neue", Helvetica, sans-serif;
-  line-height: 1.5;
-}
-
-#carbonads a {
-  color: #606060;
-}
-
-#carbonads a:hover {
-  color: hsl(0, 0%, 20%);
-  text-decoration: none;
-}
-
-#carbonads span {
-  position: relative;
-  display: block;
-  overflow: hidden;
-}
-
-.carbon-img {
-  float: left;
-  margin-right: 1em;
-}
-
-.carbon-img img { display: block; }
-
-.carbon-text {
-  display: block;
-  float: left;
-  max-width: calc(100% - 130px - 1em);
-  text-align: left;
-}
-
-.carbon-poweredby {
-  position: absolute;
-  left: 144px;
-  bottom: 0;
-  display: block;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 9px;
-}
-
-.container img {
-  max-width:55px;
-  max-height:50px;
-  width: auto;
-  height: auto;
-}
 .carta-convite-p{
     color: #5b0303;
     }
