@@ -1,60 +1,3 @@
-body {
-	background: #FFF;
-	font-family: Georgia, Times New Roman, Times, serif;
-	font-size: 20px;
-	text-align: center;
-    margin: 0;
-
-    padding: 0;
-}
-
-h1 {
-	font-size: 45px;
-	font-weight: normal;
-	margin: 0;
-    font-family: 'Chelsea Market', Georgia, serif;
-    color: #000;
-	line-height: 1;
-}
-
-h2 {
-	font-size: 70px;
-	font-weight: normal;
-	margin: 0;
-	color: #FFB000;
-    font-family: 'Chelsea Market', Georgia, serif;
-	text-transform: lowercase;
-}
-
-h3 {
-	font-size: 40px;
-	font-weight: normal;
-	margin: 0;
-    margin-top: 40px;
-	text-transform: lowercase;
-}
-
-p {
-	width: 960px;
-	margin: 40px auto;
-	color: #000;
-    line-height: 200%;
-}
-
-a, a:visited {
-	color: #000;
-    font-size: 12px;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-    }
-
-ul {
-	list-style: none;
-}
-
 /*----------------------------------------  BLOCKS */
 .scrollblock {
 	position: relative;
@@ -64,7 +7,6 @@ ul {
     padding-top: 40px;
     padding-bottom: 80px;
 }
-
 .block-title { background-color: #FFF; padding-bottom: 50px; }
 .block-title h2 { color: #000; }
 .block-title .meta {
@@ -80,10 +22,12 @@ ul {
 .block-Sobre h2 a { background: none; padding: 0; font-size: normal; }
 .block-Sobre a { background-color: #000; color: #FFF; }
 .block-Sobre a:hover { text-decoration: underline; }
+
 .block-Proposta { background-color: #06406c; }
 .block-Proposta h2 { color: #FFF; }
 .block-Proposta p { color: #FFF; }
 .block-Proposta code { background-color: #000; color: #FFF; }
+
 .block-Apresentação {  background-color: #FFF;
 }
 .block-Apresentação h2 { color: #000; }
@@ -91,10 +35,7 @@ ul {
 .carta-convite-p{
     color: #5b0303;
     }
-#subtitulo{
-    color: #ab2a2a;
-    width: 100%;
-    margin: 0;
+
 }
 #logo{
     margin-bottom: 15px;
@@ -102,19 +43,4 @@ ul {
 #link-telegram {
     font-size: 18px;
 
-}
-button{
-    margin-top: 20px;
-    padding: 2px !important;
-    border-radius: 4px !important;
-    letter-spacing: 1px;
-    font-weight: bolder;
-}
-
-button:hover{
-    background: #ab2a2a;
-    font-size: 19px;
-    color: white;
-    text-transform: uppercase;
-    font-family: "Roboto Light" ;
 }
