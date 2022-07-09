@@ -11,22 +11,25 @@
     <link rel="icon" type="image/png" href="image/android-icon-96x96.png"/>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="p-6">
+<body class="bg-gray-100">
 
-<div class="flex items-center justify-center">
+<div class="">
     <!--    LOGO / LINKS-->
 
-    <header class=" max-w-xs ">
+    <header class="bg-gray-100">
 
 
-        <a class="max-width-64 justify-items-center items-center"
+        <a class="" href="https://github.com/Univesp-Computacao">
 
-           href="https://github.com/Univesp-Computacao">
+            <img
+                class="mx-auto my-4"
+                id="logo"
+                src="image/logo.png"
+                width="188"
+                height="188"
+            >
 
-            <img class="m-4 flex mx-auto"
-                 id="logo" src="image/logo.png" width="188" height="188">
-
-            <h1 class="text-2xl font-black flex flex-col text-center">
+            <h1 class="text-4xl font-black flex flex-col text-center">
                 PROJETO GITHUB-UNIVESP
                 <br>
                 <small class="text-xl font-medium text-center">
@@ -37,12 +40,17 @@
 
 
         <!--lista de links-->
-        <div class="flex flex-col mx-auto mx-4">
-            <ul>
+        <div class="mx-auto my-4 flex justify-center">
+            <ul class="space-y-4">
                 <li>
                     Faça sua conta no
-                    <a href="https://docs.github.com/pt/get-started/signing-up-for-github/signing-up-for-a-new-github-account"
-                       target="_blank" rel="noopener noreferrer">Github </a>
+                    <a
+                        href="https://docs.github.com/pt/get-started/signing-up-for-github/signing-up-for-a-new-github-account"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Github
+                    </a>
                 </li>
                 <li>
                     Acesse o
@@ -61,16 +69,16 @@
         </div>
 
     </header>
-
+</div>
     <main>
 
-        <section class="p-4">
+        <section class="p-4 space-y-4 bg-sky-100">
             <!--        SOBRE-->
-            <h2>
+            <h2 class="text-2xl text-center font-bold text-blue-900">
                 Sobre
             </h2>
 
-            <p>
+            <p class="max-w-5xl mx-auto">
                 Grupo criado para armazenar repositórios de códigos e referências às disciplinas em comun às três áreas
                 (TI,
                 CD e EC). Mas, além disso, queremos tornar o estudo colaborativo, pois o Git é a ferramenta mais
@@ -79,11 +87,13 @@
             </p>
         </section>
 
-        <section class="p-4">
+        <section class="p-4 space-y-4 bg-sky-400">
             <!--        PROPOSTA-->
-            <h2>Proposta</h2>
+            <h2 class="text-2xl text-center font-bold">
+                Proposta
+            </h2>
 
-            <p>
+            <p class="max-w-5xl mx-auto">
                 A ideia é que no começo os repositórios sejam baseados e guiados por discipinas do curso, dando no
                 início
                 preferência às disciplinas mais abrangentes.
@@ -93,10 +103,12 @@
         </section>
 
 
-        <section class="p-4">
+        <section class="p-4 space-y-4 bg-sky-700">
             <!--        CONVITE-->
-            <h2>Cartinha de convite</h2>
-            <p class="carta-convite-p">
+            <h2 class="text-2xl text-center font-bold">
+                Cartinha de convite
+            </h2>
+            <p class="max-w-5xl mx-auto">
                 É com muito prazer e satisfação que nós anunciamos a criação de um Github que poderá sepor
                 todos os alunos da UNIVESP, independente do curso ou período.
                 Entendemos que o Github pode ser um espaço colaborativo muito rico que busca a contribuição e
@@ -109,29 +121,30 @@
                 relacionados a faculdade.
         </section>
 
-        <section class="p-4">
+        <section class="p-4 space-y-4 flex flex-col items-center">
             <!--        FAÇA PARTE-->
-            <h2>Faça Parte!</h2>
+            <h2 class="text-2xl text-center font-bold">
+                Faça Parte!
+            </h2>
 
-            <ul>
+            <ul class="">
                 <li>Quer estudar em comunidade?</li>
                 <li>Aprender mais sobre Git?</li>
                 <li>Colocar seu conhecimento em prática?</li>
                 <li>Toda colaboração é bem vinda!</li>
-
+            </ul>
                 <a id="link-telegram"
                    href="https://t.me/+9ls6SK68QdhlNmZh">
                     <button id="btn-telegram">Entre em contato pelo telegram!</button>
-
                 </a>
         </section>
 
     </main>
 
-    <footer>
-<span>
-    Desenvlvido por Github Univesp - Estudantes - 2021-2022
-</span>
+    <footer class="flex justify-end bg-black">
+        <span class="text-sm mx-4 my-2 text-sky-100">
+            Desenvolvido por Github Univesp - Estudantes - 2021-2022
+        </span>
     </footer>
 
 </body>
