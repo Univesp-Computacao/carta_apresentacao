@@ -1,0 +1,26 @@
+{
+  "name": "carta_apresentacao",
+  "version": "2.0.0",
+  "description": "carta apresentcao para grupo github",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/css/input.css -o ./dist/css/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Univesp-Computacao/carta_apresentacao.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Univesp-Computacao/carta_apresentacao/issues"
+  },
+  "homepage": "https://github.com/Univesp-Computacao/carta_apresentacao#readme"
+}
